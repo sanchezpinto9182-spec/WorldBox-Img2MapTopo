@@ -1,0 +1,8 @@
+# Change Below Here!!
+image_path = 'europe.PNG'
+
+# update the base mapping if you are using a different site
+img2map = Img2MapTopo(image_path, BASE_MAPPING, width=7, height=5, show_image=True)
+
+# change the path where you want to save the wbox file
+img2map.save("map.wbox")
